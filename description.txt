@@ -1,0 +1,8 @@
+The method of position is given below:
+A | B | C
+D | E | F
+G | H | I
+Rules:
+1. If previously occupied, no new place can be given.
+2. Winner declaration.
+3. Playing turn by turn.
