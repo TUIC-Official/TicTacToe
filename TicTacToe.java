@@ -6,7 +6,7 @@ public class TicTacToeJava {
         while (true) {
             char Ac=' ', Bc=' ', Cc=' ', Dc=' ', Ec=' ', Fc=' ', Gc=' ', Hc=' ', Ic=' ';
             int A=0, B=0, C=0, D=0, E=0, F=0, G=0, H=0, I=0;
-            System.out.println("Tic Tac Toe Game (By Ujan Modak and Contributors)");
+            System.out.println("Tic Tac Toe Game (By Ujan Modak And Contributors)");
             System.out.println("1 | 2 | 3");
             System.out.println("4 | 5 | 6");
             System.out.println("7 | 8 | 9");
@@ -76,11 +76,11 @@ public class TicTacToeJava {
                 }
                 i++;
             }
-            System.out.print("If you want to rematch, enter 1, else, enter any other number: ");
+            System.out.print("If You Want To Rematch, Enter 1, Else, Enter Any Other Number: ");
             conn = sc.nextInt();
             if (conn!=1) break;
         }
-        System.out.println("Thank you for playing my game!");
+        System.out.println("Thank You For Playing My Game!");
         System.out.println("RESUTS:");
         System.out.println("TOTAL GAMES PLAYED: "+(pa+pb+d));
         System.out.println("PLAYER X WINS: "+pa);
